@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		502216CC242648BC0094F519 /* Coffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502216CB242648BC0094F519 /* Coffee.swift */; };
+		502216D02426499E0094F519 /* CoffeeDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502216CF2426499E0094F519 /* CoffeeDecorator.swift */; };
+		502216D224264A2F0094F519 /* Strenght.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502216D124264A2F0094F519 /* Strenght.swift */; };
+		502216D424273CED0094F519 /* UserCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 502216D324273CED0094F519 /* UserCoffee.swift */; };
+		507D964A2428BB9200D28C9C /* Volume.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D96492428BB9200D28C9C /* Volume.swift */; };
+		507D964C2428C7E300D28C9C /* Sugar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D964B2428C7E300D28C9C /* Sugar.swift */; };
+		507D964E2428D9BD00D28C9C /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D964D2428D9BD00D28C9C /* Milk.swift */; };
+		507D96502428DA0700D28C9C /* Cream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507D964F2428DA0700D28C9C /* Cream.swift */; };
 		50BB1E5C2425DA9D009DF83E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB1E5B2425DA9D009DF83E /* AppDelegate.swift */; };
 		50BB1E5E2425DA9D009DF83E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB1E5D2425DA9D009DF83E /* SceneDelegate.swift */; };
 		50BB1E602425DA9D009DF83E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50BB1E5F2425DA9D009DF83E /* ViewController.swift */; };
@@ -16,6 +24,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		502216CB242648BC0094F519 /* Coffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee.swift; sourceTree = "<group>"; };
+		502216CF2426499E0094F519 /* CoffeeDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeDecorator.swift; sourceTree = "<group>"; };
+		502216D124264A2F0094F519 /* Strenght.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strenght.swift; sourceTree = "<group>"; };
+		502216D324273CED0094F519 /* UserCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCoffee.swift; sourceTree = "<group>"; };
+		507D96492428BB9200D28C9C /* Volume.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Volume.swift; sourceTree = "<group>"; };
+		507D964B2428C7E300D28C9C /* Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar.swift; sourceTree = "<group>"; };
+		507D964D2428D9BD00D28C9C /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		507D964F2428DA0700D28C9C /* Cream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cream.swift; sourceTree = "<group>"; };
 		50BB1E582425DA9D009DF83E /* Coffee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coffee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50BB1E5B2425DA9D009DF83E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50BB1E5D2425DA9D009DF83E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,13 +72,21 @@
 		50BB1E5A2425DA9D009DF83E /* Coffee */ = {
 			isa = PBXGroup;
 			children = (
+				50BB1E612425DA9D009DF83E /* Main.storyboard */,
 				50BB1E5B2425DA9D009DF83E /* AppDelegate.swift */,
 				50BB1E5D2425DA9D009DF83E /* SceneDelegate.swift */,
-				50BB1E5F2425DA9D009DF83E /* ViewController.swift */,
-				50BB1E612425DA9D009DF83E /* Main.storyboard */,
 				50BB1E642425DA9F009DF83E /* Assets.xcassets */,
 				50BB1E662425DA9F009DF83E /* LaunchScreen.storyboard */,
 				50BB1E692425DA9F009DF83E /* Info.plist */,
+				507D964F2428DA0700D28C9C /* Cream.swift */,
+				507D964D2428D9BD00D28C9C /* Milk.swift */,
+				507D964B2428C7E300D28C9C /* Sugar.swift */,
+				507D96492428BB9200D28C9C /* Volume.swift */,
+				502216D124264A2F0094F519 /* Strenght.swift */,
+				502216CF2426499E0094F519 /* CoffeeDecorator.swift */,
+				502216D324273CED0094F519 /* UserCoffee.swift */,
+				502216CB242648BC0094F519 /* Coffee.swift */,
+				50BB1E5F2425DA9D009DF83E /* ViewController.swift */,
 			);
 			path = Coffee;
 			sourceTree = "<group>";
@@ -139,8 +163,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				50BB1E602425DA9D009DF83E /* ViewController.swift in Sources */,
+				502216D02426499E0094F519 /* CoffeeDecorator.swift in Sources */,
+				502216D424273CED0094F519 /* UserCoffee.swift in Sources */,
 				50BB1E5C2425DA9D009DF83E /* AppDelegate.swift in Sources */,
+				507D964E2428D9BD00D28C9C /* Milk.swift in Sources */,
+				507D96502428DA0700D28C9C /* Cream.swift in Sources */,
+				502216D224264A2F0094F519 /* Strenght.swift in Sources */,
+				507D964C2428C7E300D28C9C /* Sugar.swift in Sources */,
 				50BB1E5E2425DA9D009DF83E /* SceneDelegate.swift in Sources */,
+				502216CC242648BC0094F519 /* Coffee.swift in Sources */,
+				507D964A2428BB9200D28C9C /* Volume.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
